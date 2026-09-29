@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+
+# Πραγματικά ανεβασμένα αρχεία / demo βάση -- ποτέ στο GitHub
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/demo.db
+backend/*.sql
+
+# Node / frontend build
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+
+# Μυστικά (αν ποτέ δημιουργηθεί τοπικό .env αρχείο)
+.env
